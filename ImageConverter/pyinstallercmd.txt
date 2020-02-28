@@ -1,0 +1,6 @@
+pyinstaller -w -i "ImageConverter.ico" --onefile --add-binary='/System/Library/Frameworks/Tk.framework/Tk':'tk' --add-binary='/System/Library/Frameworks/Tcl.fr 
+amework/Tcl':'tcl' Image_Converter.py
+
+pyinstaller -w -F -i "ImageConverter.ico" Image_Converter.py
+
+pyinstaller -F -i "ImageConverter.ico" Image_Converter.py
